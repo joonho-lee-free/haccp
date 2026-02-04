@@ -4,11 +4,11 @@ import HomeClient from "./_sections/HomeClient";
 
 export const metadata: Metadata = {
   // ✅ 메인 키워드(닭꼬치) 중심 타이틀
-  title: "닭꼬치 도매·납품 | HACCP 공장직영 순살닭꼬치 - 이가에프엔비",
+  title: "방문요양·방문목욕 | 돌봄서비스 - 하온노인복지",
 
   // ✅ 검색 결과 설명 (B2B 의도 명확)
   description:
-    "닭꼬치 전문 제조·납품 업체 이가에프엔비. HACCP 인증 공장직영으로 순살닭꼬치·꼬치류를 업소용 도매·박스단위로 전국 B2B 납품합니다.",
+    "어르신이 살던 곳에서 안전하고 편안한 돌봄을 제공, 장기요양등급 신청도움",
 
   // ✅ canonical (중복 URL 방지)
   alternates: {
