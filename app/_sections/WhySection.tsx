@@ -3,10 +3,10 @@
 import { useEffect, useMemo, useState } from "react";
 
 const WHY_IMAGES = [
-  { src: "/images/whysection/why-01.jpg", alt: "HACCP 생산 시설", label: "HACCP" },
-  { src: "/images/whysection/why-02.jpg", alt: "현장 생산/포장", label: "직접생산" },
-  { src: "/images/whysection/why-03.jpg", alt: "대량 포장/출고", label: "전국유통" },
-  { src: "/images/whysection/why-04.jpg", alt: "품질 관리", label: "품질 관리" },
+  { src: "/images/whysection/why-01.jpg", alt: "HACCP 생산 시설", label: "공식방문요양센터" },
+  { src: "/images/whysection/why-02.jpg", alt: "현장 생산/포장", label: "요양보호사직접관리" },
+  { src: "/images/whysection/why-03.jpg", alt: "대량 포장/출고", label: "보호자와 지속적인 소통" },
+  { src: "/images/whysection/why-04.jpg", alt: "품질 관리", label: "빠른상담" },
 ] as const;
 
 export default function WhySection() {
@@ -16,7 +16,7 @@ export default function WhySection() {
   const [openImage, setOpenImage] = useState<string | null>(null);
 
   // ✅ 유튜브 ID만 교체
-  const YOUTUBE_ID = "AHHHdwxHzgY"; // TODO: 실제 ID로 변경
+  const YOUTUBE_ID = "deDIc36lhW4"; // TODO: 실제 ID로 변경
 
   const thumbUrl = useMemo(
     () => `https://img.youtube.com/vi/${YOUTUBE_ID}/hqdefault.jpg`,
@@ -72,9 +72,9 @@ export default function WhySection() {
             <div>
               <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-800">
                 <span aria-hidden>🏭</span>
-                <span>신뢰 포인트</span>
+                <span>선택이유</span>
               </div>
-              <h2 className="mt-3 text-lg font-bold md:text-xl">왜 이가에프엔비인가</h2>
+              <h2 className="mt-3 text-lg font-bold md:text-xl">믿고 맡길 수 있는 방문요양센터</h2>
             </div>
 
             <div
@@ -86,12 +86,11 @@ export default function WhySection() {
           </div>
 
           <ul className="mt-4 grid gap-3 text-sm text-gray-800">
-            <li>✔ HACCP 인증 공장 직접 생산</li>
-            <li>✔ 실생산 · 실포장 현장 운영</li>
-            <li>
-              ✔ 유통단계 최소화 → B2B 단가 → <b>가격비교필수</b>
-            </li>
-            <li>✔ 문제 발생 시 대응 기준 명확</li>
+            <li><strong>✔ 장기요양기관 정식 지정</strong><p>&nbsp;&nbsp;&nbsp;국가 기준에 따라 운영되는 공식 방문요양센터입니다.</p></li>
+            <li><strong>✔ 요양보호사 직접 관리</strong><p>&nbsp;&nbsp;&nbsp;경험과 적합성을 고려해 어르신 상황에 맞게 배정합니다.</p></li>
+            <li><strong>✔ 보호자와의 지속적인 소통</strong><p>&nbsp;&nbsp;&nbsp;이용 중 변화가 있으면 보호자에게 바로 공유합니다.</p></li>
+            <li><strong>✔ 빠른 상담 · 빠른 연계</strong><p>&nbsp;&nbsp;&nbsp;상담부터 방문까지 불필요한 대기 없이 진행합니다.</p></li>
+            <li><strong>✔ 집에서 이어지는 돌봄</strong><p>&nbsp;&nbsp;&nbsp;요양원 입소 전 단계로 집에서 시작할 수 있는 돌봄입니다.</p></li>
           </ul>
         </div>
 

@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 
 const ORDER_IMAGES = [
-  { src: "/images/ordersection/order-01.jpg", alt: "앱 주문", label: "앱 주문" },
-  { src: "/images/ordersection/order-02.jpg", alt: "품목/수량 확인", label: "한눈에 확인" },
-  { src: "/images/ordersection/order-03.jpg", alt: "전용계좌 충전", label: "간편주문" },
-  { src: "/images/ordersection/order-04.jpg", alt: "주문/배송 관리", label: "내역관리" },
+  { src: "/images/ordersection/order-01.jpg", alt: "앱 주문", label: "정부지원" },
+  { src: "/images/ordersection/order-02.jpg", alt: "품목/수량 확인", label: "등급신청방법" },
+  { src: "/images/ordersection/order-03.jpg", alt: "전용계좌 충전", label: "센타상담" },
+  { src: "/images/ordersection/order-04.jpg", alt: "주문/배송 관리", label: "서비스제공" },
 ] as const;
 
 export default function OrderGoSection() {
@@ -57,11 +57,12 @@ export default function OrderGoSection() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-900">
             <span aria-hidden>📲</span>
-            <span>주문 편의</span>
+            <span>등급 신청 안내</span>
           </div>
           <h2 className="mt-3 text-lg font-bold md:text-xl">
-            발주GO로 주문이 편합니다
+            장기요양등급 신청부터 도와드립니다
           </h2>
+          <p>방문요양 이용을 위해 필요한 <strong>장기요양등급 신청 절차</strong>를 처음부터 안내해드립니다.</p>
         </div>
 
         <div
@@ -73,14 +74,14 @@ export default function OrderGoSection() {
       </div>
 
       <ul className="mt-4 grid gap-3 text-sm text-gray-800 md:grid-cols-2">
-        <li>✔ 모바일 / 앱으로 언제든 주문</li>
-        <li>✔ 품목·수량 한눈에 확인</li>
-        <li>✔ 전용계좌 충전 후 즉시 주문</li>
-        <li>✔ 주문·배송 내역 자동 관리</li>
+        <li>✔ 혼자 생활이 점점 어려워진 경우</li>
+        <li>✔ 거동이 불편해 일상 도움이 필요한 경우</li>
+        <li>✔ 치매가 의심되거나 진단을 받은 경우</li>
+        <li>✔ 보호자의 지속적인 돌봄이 어려운 경우</li>
       </ul>
 
-      <p className="mt-3 text-sm text-gray-600">
-        전화·카톡 주문 없이도 안정적으로 발주 가능합니다.
+      <p className="mt-3 text-sm text-gray-900">
+        등급 신청에는 비용이 들지 않습니다.
       </p>
 
       {/* ✅ 이미지 4장 + (추가) 클릭 시 확대 */}

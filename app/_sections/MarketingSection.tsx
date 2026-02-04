@@ -6,22 +6,22 @@ const MARKETING_IMAGES = [
   {
     src: "/images/marketingsection/marketing-01.jpg",
     alt: "프랜차이즈 홈페이지구축",
-    label: "홈페이지구축",
+    label: "상담신청",
   },
   {
     src: "/images/marketingsection/marketing-02.jpg",
     alt: "신규가맹점 유치",
-    label: "가맹점유치",
+    label: "건강보험공단 서류신청",
   },
   {
     src: "/images/marketingsection/marketing-03.jpg",
     alt: "유통라인업",
-    label: "공장+물류대행",
+    label: "방문조사",
   },
   {
     src: "/images/marketingsection/marketing-04.jpg",
     alt: "온라인홍보",
-    label: "프렌차이즈",
+    label: "등급판정",
   },
 ] as const;
 
@@ -75,15 +75,15 @@ export default function MarketingSection() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full bg-cyan-100 px-3 py-1 text-xs font-semibold text-cyan-900">
             <span aria-hidden>📣</span>
-            <span>창업 마케팅</span>
+            <span>신청절차</span>
           </div>
 
           <h2 className="mt-3 text-lg font-bold text-gray-900 md:text-xl">
-            프렌차이즈로 가는길
+            장기요양등급 신청 안내
           </h2>
 
           <p className="mt-2 text-sm text-gray-700">
-            인기매장 프렌차이즈 도전
+            신청과정이 어려우면 하온이 함께 도와드립니다.
           </p>
         </div>
 
@@ -97,13 +97,13 @@ export default function MarketingSection() {
 
       {/* 안내 문구 */}
       <ul className="mt-4 grid gap-3 text-sm text-gray-800 md:grid-cols-2">
-        <li>✔ 인기매장이라면 브랜드에 도전</li>
-        <li>✔ 가맹점유치위한 실무컨설팅</li>
-        <li>✔ 매장+공장+유통+마케팅까지</li>
-        <li>✔ 온오프라인을 하나로 통합하는 브랜드화</li>
+        <li>1️⃣<strong>상담 및 신청 안내</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;등급 신청 가능 여부와 필요 서류를 상담으로 안내</p> </li>
+        <li>2️⃣<strong>국민건강보험공단 신청</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;국민건강보험공단에 장기요양등급을 신청</p> </li>
+        <li>3️⃣<strong>방문 조사 진행</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;공단 조사원이 어르신 댁을 방문 생활 상태를 확인</p> </li>
+        <li>4️⃣<strong>등급 판정</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;심사를 거쳐 장기요양등급이 결정</p> </li>
       </ul>
 
-      <p className="mt-3 text-sm text-gray-600">※ 장사를 넘어 비즈니스로 가는길</p>
+      <p className="mt-3 text-sm text-gray-600">등급이 없더라도 상담부터 가능합니다 / 신청 과정이 어렵다면 함께 도와드립니다.</p>
 
       {/* 이미지 4장 + 오더 섹션과 동일한 오버레이 */}
       <div className="ss-marketing-grid mt-4">

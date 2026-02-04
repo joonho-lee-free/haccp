@@ -6,22 +6,22 @@ const FIT_IMAGES = [
   {
     src: "/images/fitforsection/fit-01.jpg",
     alt: "닭꼬치 굽는 장면",
-    label: "현장 조리",
+    label: "혼자계시는 부모님",
   },
   {
     src: "/images/fitforsection/fit-02.jpg",
     alt: "야시장/행사 운영 분위기",
-    label: "행사 · 야시장",
+    label: "치매초기",
   },
   {
     src: "/images/fitforsection/fit-03.jpg",
     alt: "푸드트럭 운영 장면",
-    label: "푸드트럭",
+    label: "병원 퇴원 후 회복",
   },
   {
     src: "/images/fitforsection/fit-04.jpg",
     alt: "매장 운영 참고 이미지",
-    label: "매장 운영",
+    label: "거동불편 집안일",
   },
 ] as const;
 
@@ -78,9 +78,10 @@ export default function FitForSection() {
             <span>추천 대상</span>
           </div>
           <h2 className="mt-3 text-lg font-bold md:text-xl">
-            이런 사장님께 맞습니다
+            이런 경우 방문요양이 필요합니다
           </h2>
         </div>
+        
 
         <div
           className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-blue-600 text-white shadow-sm transition-transform duration-200 ease-out group-hover:scale-105"
@@ -89,17 +90,27 @@ export default function FitForSection() {
           🎯
         </div>
       </div>
+      <p className="mt-4 text-base leading-relaxed text-gray-700 md:text-lg">
+            <span className="font-semibold text-gray-900">
+             부모님이 익숙한 집에서 생활을 유지하면서
+            </span>
+            <br />
+            <span className="text-gray-600">
+              일상 돌봄을 안전하게 받도록 돕는 서비스입니다
+            </span>
+          </p>
 
       {/* 안내데이터 */}
       <ul className="mt-4 grid gap-2 text-sm text-gray-800 md:grid-cols-2">
-        <li>✔ 닭꼬치 전문점 / 포장마차 / 호프집</li>
-        <li>✔ 푸드트럭 / 야시장 / 행사 운영</li>
-        <li>✔ 프랜차이즈 가맹점</li>
-        <li>✔ 안정적인 납품처가 필요한 업소</li>
+        <li><strong>✔ 혼자 계시는 부모님이 걱정될 때</strong><p>&nbsp;&nbsp;&nbsp;식사·안전·복약 등 일상 관리를 도와드립니다.</p></li>
+        <li><strong>✔ 거동이 불편해 집안일이 힘드실 때</strong><p>&nbsp;&nbsp;&nbsp;이동 보조와 기본적인 생활 지원을 제공합니다.</p></li>
+        <li><strong>✔ 치매 초기로 일상 점검이 필요할 때</strong><p>&nbsp;&nbsp;&nbsp;무리 없는 일상 복귀를 위해 돌봄을 연결합니다.</p></li>
+        <li><strong>✔ 병원 퇴원 후 회복 기간에 도움이 필요할때</strong><p>&nbsp;&nbsp;&nbsp;필요 시간만큼 돌봄을 받아 부담을 줄일 수 있습니다.</p></li>
+        <li><strong>✔요양원 입소는 아직 고민될 때</strong><p>&nbsp;&nbsp;&nbsp;먼저 집에서 시작해보는 돌봄 방법이 될 수 있습니다.</p></li>
       </ul>
 
       <p className="mt-3 text-sm text-gray-600">
-        ※ 개인 소비자 판매가 아닌 <b>사업자 전용 납품</b>입니다.
+        ※ 의료행위는 하지 않으며, <b>일상생활 보조 중심</b>으로 진행됩니다.
       </p>
 
       {/* ✅ 이미지 4장: PC 한줄 / 모바일 2x2 + 텍스트 오버레이 */}

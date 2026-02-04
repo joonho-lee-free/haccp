@@ -8,15 +8,14 @@ export default function ProcessSection() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full bg-rose-100 px-3 py-1 text-xs font-semibold text-rose-900">
             <span aria-hidden>🧾</span>
-            <span>진행 절차</span>
+            <span>이용 안내</span>
           </div>
           <h2 className="mt-3 text-lg font-bold md:text-xl">
-           최저가 납품 진행 절차 안내
+           방문요양 이용 절차
           </h2>
           <p className="mt-1 text-sm text-gray-600">
-            공장직영 구조로 <span className="font-semibold text-gray-800">국내 최저가 수준</span>을
-            지향하며, 매장 기준에 맞춰 안내드립니다.
-            <p>왕순살닭꼬치 110g*25cm <span className="font-semibold text-gray-800">990원 국내 최저가 </span>상생을 목표로 납품합니다</p>
+            처음 상담부터 <span className="font-semibold text-gray-800">서비스 시작까지</span>
+            &nbsp;복잡하지 않게 <span className="font-semibold text-gray-800">안내해 드립니다.</span>
           </p>
         </div>
 
@@ -30,20 +29,16 @@ export default function ProcessSection() {
 
       {/* 텍스트 절차 안내 */}
       <ol className="mt-4 grid gap-2 text-sm text-gray-800 md:grid-cols-2">
-        <li>1️⃣ 상담 요청 (매장 형태 · 지역 · 예상 물량 확인)</li>
+        <li>1️⃣ <strong>상담 신청</strong> (전화, 문자, 카카오톡으로)</li>
         <li>
-          2️⃣ 조건 안내 (
-          <span className="font-medium text-gray-900">
-            국내 최저가 수준 단가
-          </span>
-          · 최소수량 · 납품 방식)
-        </li>
-        <li>3️⃣ 샘플 테스트 (해당 시, 상담 후 가능 여부 안내)</li>
-        <li>4️⃣ 거래 진행 (출고 · 배송 / 정기·단발 납품)</li>
+            2️⃣ <strong>어르신 상태 확인</strong> (어르신의 건강 상태와 생활 환경을 간단히 확인합니다)</li>
+
+        <li>3️⃣ <strong>요양보호사 매칭</strong> (어르신 상황에 맞는 요양보호사를 배정합니다.)</li>
+        <li>4️⃣ <strong>방문요양 시작</strong>(일정에 맞춰 방문요양 서비스를 시작합니다.)</li>
       </ol>
 
       <p className="mt-3 text-sm text-gray-600">
-        ※ 업소 운영 고객 대상 안내이며, 물량·지역·계약 조건에 따라 단가가 달라질 수 있습니다.
+        ※ 필요한 서류와 절차는 상담 과정에서 자세히 안내해드립니다.
       </p>
 
       <div

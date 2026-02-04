@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 
 const PRODUCT_IMAGES = [
-  { src: "/images/productsection/product-01.jpg", alt: "왕순살왕파닭", label: "왕순살꼬치" },
-  { src: "/images/productsection/product-02.jpg", alt: "일본식순살파닭", label: "일본식파닭" },
-  { src: "/images/productsection/product-03.jpg", alt: "염통꼬치", label: "염통꼬치" },
-  { src: "/images/productsection/product-04.jpg", alt: "닭껍질꼬치", label: "닭껍질꼬치" },
+  { src: "/images/productsection/product-01.jpg", alt: "왕순살왕파닭", label: "식사도움" },
+  { src: "/images/productsection/product-02.jpg", alt: "일본식순살파닭", label: "정서지원 말벗" },
+  { src: "/images/productsection/product-03.jpg", alt: "염통꼬치", label: "복약확인 일상전반" },
+  { src: "/images/productsection/product-04.jpg", alt: "닭껍질꼬치", label: "가사생활지원" },
 ] as const;
 
 export default function ProductSection() {
@@ -57,11 +57,11 @@ export default function ProductSection() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full bg-violet-100 px-3 py-1 text-xs font-semibold text-violet-800">
             <span aria-hidden>🍢</span>
-            <span>제품 라인업</span>
+            <span>서비스 안</span>
           </div>
-          <h2 className="mt-3 text-lg font-bold md:text-xl">제품 구성</h2>
+          <h2 className="mt-3 text-lg font-bold md:text-xl">방문요양 서비스 내용</h2>
           <p className="mt-2 text-sm text-gray-700">
-            업소 운영에 가장 많이 사용되는 닭꼬치
+            요양보호사가 어르신 댁으로 방문하여 일상생활 전반을 도와드립니다.
           </p>
         </div>
 
@@ -74,14 +74,16 @@ export default function ProductSection() {
       </div>
 
       <ul className="mt-4 grid gap-2 text-sm text-gray-800 md:grid-cols-2">
-        <li>• 왕순살 150개 / 왕파닭 120개 / 110g*25cm </li>
-        <li>• 일본식순살 150개 / 일본식파닭 120개</li>
-        <li>• 이자까야용 / 50g*18cm </li>
-        <li>• 염통 240개 / 껍질 200개 / 35g~40g*18cm</li>
+        <li><strong>• 식사 도움</strong><p>&nbsp;&nbsp;&nbsp;식사 준비와 식사 보조를 통해 규칙적인 식생활을 돕습니다.</p> </li>
+        <li><strong>• 위생 · 청결 관리</strong><p>&nbsp;&nbsp;&nbsp;세면, 목욕 보조 등 개인 위생 관리를 지원합니다.</p> </li>
+        <li><strong>• 이동 · 보행 보조</strong><p>&nbsp;&nbsp;&nbsp;실내 이동과 외출 시 안전한 보행을 도와드립니다.</p> </li>
+        <li><strong>• 가사 생활 지원</strong><p>&nbsp;&nbsp;&nbsp;청소, 정리정돈 등 기본적인 가사 활동을 보조합니다.</p> </li>
+        <li><strong>• 정서 지원 · 말벗</strong><p>&nbsp;&nbsp;&nbsp;대화와 교류를 통해 어르신의 정서 안정을 돕습니다.</p> </li>
+        <li><strong>• 일상생활 관리</strong><p>&nbsp;&nbsp;&nbsp;복약 확인, 생활 리듬 관리 등 일상 전반을 함께합니다.</p> </li>
       </ul>
 
       <p className="mt-3 text-sm text-gray-600">
-        ※ 전 제품 <b>박스 단위 · B2B 납품 전용 </b>
+        ※ 본 서비스는 의료행위가 아닌 <b>일상생활 지원 중심의 방문요양 서비스입니다. </b>
       </p>
 
       {/* ✅ 이미지 4장 */}

@@ -43,20 +43,29 @@ export default function Hero({
         {/* Left */}
         <div>
           <p className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-sm font-medium text-gray-700">
-            가게 운영 사장님 전용
+            방문요양·장기요양보험 지원·부산
           </p>
 
           <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight md:text-5xl">
-            업소용 순살닭꼬치 <span className="whitespace-nowrap">도매 납품</span>
+            부모님을 요양원에<span className="whitespace-nowrap">보내지 않아도 됩니다!</span>
           </h1>
 
           <p className="mt-4 text-base leading-relaxed text-gray-700 md:text-lg">
             <span className="font-semibold text-gray-900">
-              110g · 50g · 순살 · 냉동 · 박스단위 공급
+             익숙한 집에서
             </span>
             <br />
             <span className="text-gray-600">
-              대량 발주 시 배송 혜택 제공 (도매 거래 기준, 조건별 안내)
+              요양보호사가 직접 찾아오는 방문요양 서비스
+            </span>
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-gray-700 md:text-lg">
+            <span className="font-gray-600">
+             장기요양등급이 있다면 국가 지원으로
+            </span>
+            <br />
+            <span className="text-semibold text-gray-900">
+              비용 부담을 줄여 집에서 돌봄을 받을 수 있습니다.
             </span>
           </p>
 
@@ -69,7 +78,7 @@ export default function Hero({
               aria-label="전화로 도매 단가 바로 받기"
             >
               <span aria-hidden>📞</span>
-              전화로 단가 받기
+              전화 상담
             </a>
 
             {/* 💬 카톡 */}
@@ -98,7 +107,7 @@ export default function Hero({
           </div>
 
           <p className="mt-4 text-sm text-gray-600">
-            ※ 본 페이지는 <span className="font-semibold">업소 납품/도매</span> 전용입니다.
+            ※ 방문용양 <span className="font-semibold">상담 전용</span> 페이지입니다
           </p>
         </div>
 

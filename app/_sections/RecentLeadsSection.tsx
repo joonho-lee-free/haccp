@@ -75,7 +75,7 @@ export default function RecentLeadsSection() {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold text-indigo-800">
               <span aria-hidden>🟢</span>
-              <span>실시간 접수</span>
+              <span>상담신청현황</span>
             </div>
             <h2 className="mt-3 text-lg font-bold md:text-xl">최근 문의 현황</h2>
             <p className="mt-1 text-sm text-gray-600">
