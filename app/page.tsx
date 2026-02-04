@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
   // ✅ canonical (중복 URL 방지)
   alternates: {
-    canonical: "https://leegafnb.kr/",
+    canonical: "https://haccp4553.vercel.app",
   },
 
   // ✅ 공유(카톡/네이버/페북 등)용 메타
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "방문요양·방문목욕 | 돌봄서비스 - 하온노인복지",
     description:
       "어르신이 살던 곳에서 안전하고 편안한 돌봄을 제공, 장기요양등급 신청도움",
-    url: "https://leegafnb.kr/",
+    url: "https://haccp4553.vercel.app",
     siteName: "하온노인복지",
     type: "website",
     locale: "ko_KR",
