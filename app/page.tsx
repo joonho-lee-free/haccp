@@ -17,11 +17,11 @@ export const metadata: Metadata = {
 
   // ✅ 공유(카톡/네이버/페북 등)용 메타
   openGraph: {
-    title: "닭꼬치 도매·납품 | HACCP 공장직영 이가에프엔비",
+    title: "방문요양·방문목욕 | 돌봄서비스 - 하온노인복지",
     description:
-      "순살닭꼬치·꼬치류 업소용 도매 납품. HACCP 인증 공장직영, 전국 배송.",
+      "어르신이 살던 곳에서 안전하고 편안한 돌봄을 제공, 장기요양등급 신청도움",
     url: "https://leegafnb.kr/",
-    siteName: "이가에프엔비",
+    siteName: "하온노인복지",
     type: "website",
     locale: "ko_KR",
   },
