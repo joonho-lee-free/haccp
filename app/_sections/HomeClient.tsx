@@ -122,7 +122,7 @@ export default function HomeClient({
       </section>
 
       {/* ✅ 문자상담요청 폼 “바로 밑” 새 섹션 */}
-      <InstagramSection />
+      {/*InstagramSection />*/}
 
       <Footer />
     </main>
