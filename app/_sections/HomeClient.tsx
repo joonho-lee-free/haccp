@@ -4,7 +4,7 @@ import Hero from "../_components/Hero";
 import Footer from "../_components/Footer";
 import BodyCardsSection from "./BodyCardsSection";
 import RecentLeadsSection from "./RecentLeadsSection";
-import InstagramSection from "./InstagramSection";
+
 
 const KAKAO_CHAT_URL = "http://pf.kakao.com/_TWfbG";
 const CALL_PHONE = "051-714-3396";
@@ -122,7 +122,7 @@ export default function HomeClient({
       </section>
 
       {/* ✅ 문자상담요청 폼 “바로 밑” 새 섹션 */}
-      {/*InstagramSection />*/}
+      
 
       <Footer />
     </main>
