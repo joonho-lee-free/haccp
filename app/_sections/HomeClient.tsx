@@ -51,9 +51,9 @@ export default function HomeClient({
                 <span aria-hidden>💬</span>
                 <span>즉시 접수</span>
               </div>
-              <h2 className="mt-3 text-lg font-bold md:text-xl">방문요양/등급신청 상담요청</h2>
+              <h2 className="mt-3 text-lg font-bold md:text-xl">HACCP 컨설팅 상담요청</h2>
               <p className="mt-1 text-sm text-gray-300">
-                작성 즉시 담당자 휴대폰으로 문자 접수됩니다
+                HACCP컨설팅 / 정부지원사업 매칭 / 공공급식 관련 상담요청
               </p>
             </div>
 
@@ -83,7 +83,7 @@ export default function HomeClient({
                 name="storeName"
                 required
                 maxLength={40}
-                placeholder="보호자(성명)"
+                placeholder="회사명(상호)"
                 className="rounded-xl border border-gray-700 bg-gray-900 px-3 py-2 text-sm text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-green-500"
               />
 
@@ -100,7 +100,7 @@ export default function HomeClient({
               name="message"
               rows={4}
               maxLength={300}
-              placeholder="요청 내용 (방문요양/방문목용/등급신청동)"
+              placeholder="요청 내용 (HACCP컨설팅 / 정부지원사업 / 공공급식)"
               className="rounded-xl border border-gray-700 bg-gray-900 px-3 py-2 text-sm text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-green-500"
             />
 

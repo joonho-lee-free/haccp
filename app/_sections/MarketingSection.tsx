@@ -6,22 +6,22 @@ const MARKETING_IMAGES = [
   {
     src: "/images/marketingsection/marketing-01.jpg",
     alt: "프랜차이즈 홈페이지구축",
-    label: "상담신청",
+    label: "공공급식",
   },
   {
     src: "/images/marketingsection/marketing-02.jpg",
     alt: "신규가맹점 유치",
-    label: "건강보험공단 서류신청",
+    label: "공급시 신청",
   },
   {
     src: "/images/marketingsection/marketing-03.jpg",
     alt: "유통라인업",
-    label: "방문조사",
+    label: "입찰-낙찰",
   },
   {
     src: "/images/marketingsection/marketing-04.jpg",
     alt: "온라인홍보",
-    label: "등급판정",
+    label: "생산-배송원라인",
   },
 ] as const;
 
@@ -75,15 +75,15 @@ export default function MarketingSection() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full bg-cyan-100 px-3 py-1 text-xs font-semibold text-cyan-900">
             <span aria-hidden>📣</span>
-            <span>신청절차</span>
+            <span>공공급식 지원</span>
           </div>
 
           <h2 className="mt-3 text-lg font-bold text-gray-900 md:text-xl">
-            장기요양등급 신청 안내
+            공공급식 입찰·생산·배송까지 원라인으로 편하게
           </h2>
 
           <p className="mt-2 text-sm text-gray-700">
-            신청과정이 어려우면 하온이 함께 도와드립니다.
+            HACCP인증 이후, <strong>공공급식과 연결되는 안전한 매출구조</strong>를 만듭니다
           </p>
         </div>
 
@@ -97,13 +97,13 @@ export default function MarketingSection() {
 
       {/* 안내 문구 */}
       <ul className="mt-4 grid gap-3 text-sm text-gray-800 md:grid-cols-2">
-        <li>1️⃣<strong>상담 및 신청 안내</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;등급 신청 가능 여부와 필요 서류를 상담으로 안내</p> </li>
-        <li>2️⃣<strong>국민건강보험공단 신청</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;국민건강보험공단에 장기요양등급을 신청</p> </li>
-        <li>3️⃣<strong>방문 조사 진행</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;공단 조사원이 어르신 댁을 방문 생활 상태를 확인</p> </li>
-        <li>4️⃣<strong>등급 판정</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;심사를 거쳐 장기요양등급이 결정</p> </li>
+        <li>1️⃣<strong>공공급식 입찰부터</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;생산·배송까지,한 번에 이어지는 원라인 구조</p> </li>
+        <li>2️⃣<strong>입찰은 따로, 생산은 따로?</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;이제 아닙니다.공공급식, 생산·배송까지 한 번에</p> </li>
+        <li>3️⃣<strong>HACCP 인증→ 공공급식 연계→ 지속 가능한 매출 확보</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;단발성 거래가 아닌 공공급식 기반의 매출처를 확보합니다.</p> </li>
+        <li>4️⃣<strong>중학생도 이해할 수 있도록 설명하고</strong><p>&nbsp;&nbsp;&nbsp;&nbsp;입찰부터 생산 배송까지 안전하게 실제로 납품 가능한 구조를 만듭니다</p> </li>
       </ul>
 
-      <p className="mt-3 text-sm text-gray-600">등급이 없더라도 상담부터 가능합니다 / 신청 과정이 어렵다면 함께 도와드립니다.</p>
+      <p className="mt-3 text-sm text-gray-600">HACCP → 공공급식 → 정부·고용지원까지 이어지는 실무형 구조를 설계합니다</p>
 
       {/* 이미지 4장 + 오더 섹션과 동일한 오버레이 */}
       <div className="ss-marketing-grid mt-4">

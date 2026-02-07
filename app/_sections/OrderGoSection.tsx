@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 
 const ORDER_IMAGES = [
-  { src: "/images/ordersection/order-01.jpg", alt: "앱 주문", label: "정부지원" },
-  { src: "/images/ordersection/order-02.jpg", alt: "품목/수량 확인", label: "등급신청방법" },
-  { src: "/images/ordersection/order-03.jpg", alt: "전용계좌 충전", label: "센타상담" },
-  { src: "/images/ordersection/order-04.jpg", alt: "주문/배송 관리", label: "서비스제공" },
+  { src: "/images/ordersection/order-01.jpg", alt: "앱 주문", label: "정부지원사업매칭" },
+  { src: "/images/ordersection/order-02.jpg", alt: "품목/수량 확인", label: "인력고용구조점검" },
+  { src: "/images/ordersection/order-03.jpg", alt: "전용계좌 충전", label: "고령자 고용지원금" },
+  { src: "/images/ordersection/order-04.jpg", alt: "주문/배송 관리", label: "채용전 사전점검 필수" },
 ] as const;
 
 export default function OrderGoSection() {
@@ -57,12 +57,12 @@ export default function OrderGoSection() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-900">
             <span aria-hidden>📲</span>
-            <span>등급 신청 안내</span>
+            <span>정부지원사업 매칭</span>
           </div>
           <h2 className="mt-3 text-lg font-bold md:text-xl">
-            장기요양등급 신청부터 도와드립니다
+            정부지원사업 될 수 있는 구조인지부터 봅니다 
           </h2>
-          <p>방문요양 이용을 위해 필요한 <strong>장기요양등급 신청 절차</strong>를 처음부터 안내해드립니다.</p>
+          <p>만약 몰라서 <strong>정부지원사업을 받지못한다면? </strong>될 수 있는 구조인지부터 봅니다</p>
         </div>
 
         <div
@@ -74,14 +74,14 @@ export default function OrderGoSection() {
       </div>
 
       <ul className="mt-4 grid gap-3 text-sm text-gray-800 md:grid-cols-2">
-        <li>✔ 혼자 생활이 점점 어려워진 경우</li>
-        <li>✔ 거동이 불편해 일상 도움이 필요한 경우</li>
-        <li>✔ 치매가 의심되거나 진단을 받은 경우</li>
-        <li>✔ 보호자의 지속적인 돌봄이 어려운 경우</li>
+        <li>✔ 취업 취약계층 고용시(조건 충족 시) 신규채용자</li>
+        <li>✔ 고령자 고용지원금 대상 여부를 함께 검토합니다</li>
+        <li>✔ 인력 고용 구조를 기준으로 해당 엽부를 함께 검토합니다</li>
+        <li>✔ 사전 요건 검토 없이 채용할 경우 지원이 불가</li>
       </ul>
 
       <p className="mt-3 text-sm text-gray-900">
-        등급 신청에는 비용이 들지 않습니다.
+        직원 채용, 지원사업 대상인지부터 확인하세요
       </p>
 
       {/* ✅ 이미지 4장 + (추가) 클릭 시 확대 */}

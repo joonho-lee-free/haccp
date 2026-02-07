@@ -43,32 +43,27 @@ export default function Hero({
         {/* Left */}
         <div>
           <p className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-sm font-medium text-gray-700">
-            방문요양·장기요양보험 지원·부산
+            Haccp 컨설팅
           </p>
 
           <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight md:text-5xl">
-            부모님을 요양원에<span className="whitespace-nowrap">보내지 않아도 됩니다!</span>
+            HACCP 인증,<span className="whitespace-nowrap">진짜 사업이 시작됩니다!</span>
           </h1>
 
           <p className="mt-4 text-base leading-relaxed text-gray-700 md:text-lg">
             <span className="font-semibold text-gray-900">
-             익숙한 집에서
+              인증에서 끝나는 컨설팅이 아닙니다!
             </span>
             <br />
             <span className="text-gray-600">
-              요양보호사가 직접 찾아오는 방문요양 서비스
-            </span>
-          </p>
-          <p className="mt-4 text-base leading-relaxed text-gray-700 md:text-lg">
-            <span className="font-gray-600">
-             장기요양등급이 있다면 국가 지원으로
+             HACCP → 공공급식 → 정부·고용지원까지
             </span>
             <br />
-            <span className="text-semibold text-gray-900">
-              비용 부담을 줄여 집에서 돌봄을 받을 수 있습니다.
+            <span className="text-gray-600">
+             이어지는 실무형 구조를 설계합니다.
             </span>
           </p>
-
+          
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
             {/* 📞 전화 (중간 페이지 /call → GA 이벤트 보장) */}
             <a
@@ -78,7 +73,7 @@ export default function Hero({
               aria-label="전화로 도매 단가 바로 받기"
             >
               <span aria-hidden>📞</span>
-              전화 상담
+              무료 상담
             </a>
 
             {/* 💬 카톡 */}
@@ -102,12 +97,12 @@ export default function Hero({
               aria-label="문자요청 폼으로 이동"
             >
               <span aria-hidden>✉️</span>
-              문자요청
+              상담 신청
             </a>
           </div>
 
           <p className="mt-4 text-sm text-gray-600">
-            ※ 방문용양 <span className="font-semibold">상담 전용</span> 페이지입니다
+            ※ Haccp인증 <span className="font-semibold">상담 전용</span> 페이지입니다
           </p>
         </div>
 

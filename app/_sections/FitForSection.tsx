@@ -6,22 +6,22 @@ const FIT_IMAGES = [
   {
     src: "/images/fitforsection/fit-01.jpg",
     alt: "닭꼬치 굽는 장면",
-    label: "혼자계시는 부모님",
+    label: "소규모 Haccp",
   },
   {
     src: "/images/fitforsection/fit-02.jpg",
     alt: "야시장/행사 운영 분위기",
-    label: "치매초기",
+    label: "현장구조 개선",
   },
   {
     src: "/images/fitforsection/fit-03.jpg",
     alt: "푸드트럭 운영 장면",
-    label: "병원 퇴원 후 회복",
+    label: "정부지원사업 매칭",
   },
   {
     src: "/images/fitforsection/fit-04.jpg",
     alt: "매장 운영 참고 이미지",
-    label: "거동불편 집안일",
+    label: "공공급식 매출증대",
   },
 ] as const;
 
@@ -78,7 +78,7 @@ export default function FitForSection() {
             <span>추천 대상</span>
           </div>
           <h2 className="mt-3 text-lg font-bold md:text-xl">
-            이런 경우 방문요양이 필요합니다
+           Haccp인증과 정부지원, 안전한 매출처 확보가 필요한 기업
           </h2>
         </div>
         
@@ -92,25 +92,25 @@ export default function FitForSection() {
       </div>
       <p className="mt-4 text-base leading-relaxed text-gray-700 md:text-lg">
             <span className="font-semibold text-gray-900">
-             부모님이 익숙한 집에서 생활을 유지하면서
+             HACCP인증만 받는다고 매출이 늘어나지 않습니다.
             </span>
             <br />
             <span className="text-gray-600">
-              일상 돌봄을 안전하게 받도록 돕는 서비스입니다
+              Haccp인증과 정부지원 안전한 매출처 확보가 답입니다!
             </span>
           </p>
 
       {/* 안내데이터 */}
       <ul className="mt-4 grid gap-2 text-sm text-gray-800 md:grid-cols-2">
-        <li><strong>✔ 혼자 계시는 부모님이 걱정될 때</strong><p>&nbsp;&nbsp;&nbsp;식사·안전·복약 등 일상 관리를 도와드립니다.</p></li>
-        <li><strong>✔ 거동이 불편해 집안일이 힘드실 때</strong><p>&nbsp;&nbsp;&nbsp;이동 보조와 기본적인 생활 지원을 제공합니다.</p></li>
-        <li><strong>✔ 치매 초기로 일상 점검이 필요할 때</strong><p>&nbsp;&nbsp;&nbsp;무리 없는 일상 복귀를 위해 돌봄을 연결합니다.</p></li>
-        <li><strong>✔ 병원 퇴원 후 회복 기간에 도움이 필요할때</strong><p>&nbsp;&nbsp;&nbsp;필요 시간만큼 돌봄을 받아 부담을 줄일 수 있습니다.</p></li>
-        <li><strong>✔요양원 입소는 아직 고민될 때</strong><p>&nbsp;&nbsp;&nbsp;먼저 집에서 시작해보는 돌봄 방법이 될 수 있습니다.</p></li>
+        <li><strong>✔ 소규모 Haccp (포장육, 양념육)</strong><p>&nbsp;&nbsp;&nbsp;초기 설계부터 심사 기준에 맞게 잡아드립니다</p></li>
+        <li><strong>✔ 현장구조 개선 (국내최저가 시공)</strong><p>&nbsp;&nbsp;&nbsp;판넬공사, 부분공사, 바닥공사, 트랜치공사 - 국내최저가</p></li>
+        <li><strong>✔ 정부지원사업매칭 (재무구조개선)</strong><p>&nbsp;&nbsp;&nbsp;직원 채용 후 신청하거나 절차가 틀리면 지원 불가</p></li>
+        <li><strong>✔ 공공급식 연계 (HACCP만 있다면 안전한 매출처 확보)</strong><p>&nbsp;&nbsp;&nbsp;입찰+생산+배송시스템까지 원라인으로 해결</p></li>
+        
       </ul>
 
       <p className="mt-3 text-sm text-gray-600">
-        ※ 의료행위는 하지 않으며, <b>일상생활 보조 중심</b>으로 진행됩니다.
+        ※ Haccp인증/지원사업은 상대적이라 <b>상담후에 </b> 인증/지원여부가 결정됩니다.
       </p>
 
       {/* ✅ 이미지 4장: PC 한줄 / 모바일 2x2 + 텍스트 오버레이 */}

@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 
 const PRODUCT_IMAGES = [
-  { src: "/images/productsection/product-01.jpg", alt: "왕순살왕파닭", label: "식사도움" },
-  { src: "/images/productsection/product-02.jpg", alt: "일본식순살파닭", label: "정서지원 말벗" },
-  { src: "/images/productsection/product-03.jpg", alt: "염통꼬치", label: "복약확인 일상전반" },
-  { src: "/images/productsection/product-04.jpg", alt: "닭껍질꼬치", label: "가사생활지원" },
+  { src: "/images/productsection/product-01.jpg", alt: "왕순살왕파닭", label: "Haccp기준서준비" },
+  { src: "/images/productsection/product-02.jpg", alt: "일본식순살파닭", label: "시설 공사 보완" },
+  { src: "/images/productsection/product-03.jpg", alt: "염통꼬치", label: "CCP준비 유효성평가" },
+  { src: "/images/productsection/product-04.jpg", alt: "Haccp심사", label: "Haccp심사" },
 ] as const;
 
 export default function ProductSection() {
@@ -57,11 +57,11 @@ export default function ProductSection() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full bg-violet-100 px-3 py-1 text-xs font-semibold text-violet-800">
             <span aria-hidden>🍢</span>
-            <span>서비스 안</span>
+            <span>서비스 안내</span>
           </div>
-          <h2 className="mt-3 text-lg font-bold md:text-xl">방문요양 서비스 내용</h2>
+          <h2 className="mt-3 text-lg font-bold md:text-xl">Haccp컨설팅 서비스 내용</h2>
           <p className="mt-2 text-sm text-gray-700">
-            요양보호사가 어르신 댁으로 방문하여 일상생활 전반을 도와드립니다.
+           담당자가 상담후 직접 현장을 방문하여 도와드립니다.
           </p>
         </div>
 
@@ -74,16 +74,15 @@ export default function ProductSection() {
       </div>
 
       <ul className="mt-4 grid gap-2 text-sm text-gray-800 md:grid-cols-2">
-        <li><strong>• 식사 도움</strong><p>&nbsp;&nbsp;&nbsp;식사 준비와 식사 보조를 통해 규칙적인 식생활을 돕습니다.</p> </li>
-        <li><strong>• 위생 · 청결 관리</strong><p>&nbsp;&nbsp;&nbsp;세면, 목욕 보조 등 개인 위생 관리를 지원합니다.</p> </li>
-        <li><strong>• 이동 · 보행 보조</strong><p>&nbsp;&nbsp;&nbsp;실내 이동과 외출 시 안전한 보행을 도와드립니다.</p> </li>
-        <li><strong>• 가사 생활 지원</strong><p>&nbsp;&nbsp;&nbsp;청소, 정리정돈 등 기본적인 가사 활동을 보조합니다.</p> </li>
-        <li><strong>• 정서 지원 · 말벗</strong><p>&nbsp;&nbsp;&nbsp;대화와 교류를 통해 어르신의 정서 안정을 돕습니다.</p> </li>
-        <li><strong>• 일상생활 관리</strong><p>&nbsp;&nbsp;&nbsp;복약 확인, 생활 리듬 관리 등 일상 전반을 함께합니다.</p> </li>
+        <li><strong>• Haccp 기준서 준비</strong><p>&nbsp;&nbsp;&nbsp;Haccp관련 서류를 준비합니다</p> </li>
+        <li><strong>• 시설 · 공사 보완</strong><p>&nbsp;&nbsp;&nbsp;Haccp기준에 맞게 동선 및 구조를 보완합니다</p> </li>
+        <li><strong>• ccp준비과정</strong><p>&nbsp;&nbsp;&nbsp;회사별 맞춤 ccp관리(미생물관리, 금속검출기)를 준비합니다.</p> </li>
+        <li><strong>• Haccp심사신청 및 심사</strong><p>&nbsp;&nbsp;&nbsp;Haccp인증원에 Haccp plan을 제출 심사</p> </li>
+
       </ul>
 
       <p className="mt-3 text-sm text-gray-600">
-        ※ 본 서비스는 의료행위가 아닌 <b>일상생활 지원 중심의 방문요양 서비스입니다. </b>
+        ※ Haccp지원사업으로 <b>최대 1,000만원까지 지원받을 수 있습니다</b>
       </p>
 
       {/* ✅ 이미지 4장 */}

@@ -11,7 +11,7 @@ export default function ProcessSection() {
             <span>이용 안내</span>
           </div>
           <h2 className="mt-3 text-lg font-bold md:text-xl">
-           방문요양 이용 절차
+          HACCP/정부지원사업/공공급식 이용안내
           </h2>
           <p className="mt-1 text-sm text-gray-600">
             처음 상담부터 <span className="font-semibold text-gray-800">서비스 시작까지</span>
@@ -31,10 +31,10 @@ export default function ProcessSection() {
       <ol className="mt-4 grid gap-2 text-sm text-gray-800 md:grid-cols-2">
         <li>1️⃣ <strong>상담 신청</strong> (전화, 문자, 카카오톡으로)</li>
         <li>
-            2️⃣ <strong>어르신 상태 확인</strong> (어르신의 건강 상태와 생활 환경을 간단히 확인합니다)</li>
+            2️⃣ <strong>현장확인, 서류검토</strong> (공사범위 및 상태확인)</li>
 
-        <li>3️⃣ <strong>요양보호사 매칭</strong> (어르신 상황에 맞는 요양보호사를 배정합니다.)</li>
-        <li>4️⃣ <strong>방문요양 시작</strong>(일정에 맞춰 방문요양 서비스를 시작합니다.)</li>
+        <li>3️⃣ <strong>공사·보완·정부지원사업신청</strong> (회사 상황에 맞게 컨설팅 합니다.)</li>
+        <li>4️⃣ <strong>공공급식 시작</strong>(HACCP인증후 공공급식까지 진행도와드립니다)</li>
       </ol>
 
       <p className="mt-3 text-sm text-gray-600">
